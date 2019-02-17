@@ -1,0 +1,20 @@
+{
+  "name": "typescript-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --inspect=9229 dist/index.js",
+    "start:dev": "nodemon",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^11.9.4",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
